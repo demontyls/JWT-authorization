@@ -1,0 +1,33 @@
+{
+  "name": "JWT-authorization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.1",
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node server/Server.js",
+    "dev": "nodemon server/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demontyls/JWT-authorization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demontyls/JWT-authorization/issues"
+  },
+  "homepage": "https://github.com/demontyls/JWT-authorization#readme"
+}
